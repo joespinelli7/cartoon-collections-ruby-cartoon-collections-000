@@ -1,5 +1,5 @@
 def name
-  print "What is your name?"
+  puts "What is your name?"
   name = gets.chomp
   if name == "Joe"
 		puts "Hey #{name}"
